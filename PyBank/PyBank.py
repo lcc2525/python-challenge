@@ -118,13 +118,7 @@ print(f'Greatest Decrease in Profits: {lday_final}  {glow_final}')
 
 # print(summary_df)
 
-#print ("Financial Analysis")
-#print ("----------------------------------------")
-#print (f'Total Months: {Total_months}')
-#print (f'Total:  {Total_net}')
-#print (f'Average Change:  {Ave_changdf}')
-#print (f'Greatest Increase in Profits:  {Greatest_inc}')
-#print (f'Greatest Decrease in Profits: {Lowest_inc}') summary_df = 
+
 with open("Pybank.txt", "w") as text_file:
     print ("Financial Analysis ", file=text_file )
     print ("_______________________________________________", file=text_file)
